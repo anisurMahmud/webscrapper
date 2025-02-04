@@ -41,11 +41,13 @@ for row_num in range(1,17):
                row = []
         df = pd.DataFrame(rows)
         df.drop(index=df.index[0], axis=0, inplace=True)
-        df['District'] = title
+        #df['District'] = title
+        df.insert(0, 'District', title)
         main = pd.concat([main, df], ignore_index=True)
 
         driver.back()
 
+main.drop(main.columns[1], axis = 1, inplace = True)
 main.to_csv('allPostalCode.csv', index=False)
 
 #title = str(narayonganjButton.get_attribute("title"))
