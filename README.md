@@ -25,8 +25,9 @@ Before running the scraper, make sure you have the following installed:
    git clone https://github.com/anisurMahmud/webscrapper.git
    cd webscrapper
 
-##Output Format
-#The output CSV file will have the following columns:
+## Output Format
+
+# The output CSV file will have the following columns:
 
 -Post Office Name: The name of the post office.
 -District: The district to which the post office belongs.
