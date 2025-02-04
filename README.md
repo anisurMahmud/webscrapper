@@ -15,7 +15,7 @@ Before running the scraper, make sure you have the following installed:
 
 - **Python 3.x**
 - **Selenium**: `pip install selenium`
-- **WebDriver**: You will need the appropriate web driver for your browser (e.g., ChromeDriver for Google Chrome).
+- **WebDriver**: You need chrome browser. No need to download webdriver additionaly.
 - **Pandas (optional)**: For data manipulation and output formatting: `pip install pandas`
 
 ## Installation
